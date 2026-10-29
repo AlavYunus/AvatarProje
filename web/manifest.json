@@ -1,0 +1,18 @@
+{
+  "short_name": "AVATAR",
+  "name": "AVATAR - Üretim Yönetim Paneli",
+  "description": "Gıda üretim yönetim sistemi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#363659",
+  "theme_color": "#363659",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

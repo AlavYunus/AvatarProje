@@ -1,0 +1,57 @@
+/* AVATAR Web - Temel Reset & Global Stillər */
+@import './App.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--surface-bg);
+  background-image:
+    radial-gradient(at 0% 0%, rgba(135, 91, 247, 0.07) 0px, transparent 45%),
+    radial-gradient(at 100% 15%, rgba(18, 183, 106, 0.04) 0px, transparent 45%);
+  background-attachment: fixed;
+  color: var(--slate-800);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  flex: 1;
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app-footer {
+  background: linear-gradient(135deg, var(--primary-900) 0%, #1e1b4b 100%);
+  color: rgba(255, 255, 255, 0.88);
+  text-align: center;
+  padding: 1.15rem;
+  font-size: 0.85rem;
+}
+
+.app-footer p {
+  margin: 0;
+}

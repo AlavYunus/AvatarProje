@@ -1,0 +1,38 @@
+{
+  "name": "avatar-web",
+  "version": "1.0.0",
+  "description": "AVATAR Proje - Web Yönetim ve Raporlama Sistemi",
+  "main": "index.html",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx --fix"
+  },
+  "keywords": [
+    "avatar",
+    "production-management",
+    "inventory",
+    "kitchen-management"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "axios": "^1.6.2",
+    "date-fns": "^3.0.6",
+    "lucide-react": "^0.301.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.6.1",
+    "react-router-dom": "^6.30.6",
+    "recharts": "^2.15.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
+  }
+}

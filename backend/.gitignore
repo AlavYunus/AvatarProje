@@ -1,0 +1,23 @@
+# Go binaries and build artifacts
+*.exe
+*.exe~
+*.out
+*.out~
+bin/
+obj/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Go cache
+go.sum
+go.work
+go.work.sum
+
+# Temporary files
+*.tmp
+*.temp

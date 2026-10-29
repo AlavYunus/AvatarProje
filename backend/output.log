@@ -1,0 +1,3 @@
+# command-line-arguments
+.\main.go:26:13: undefined: sql.DB
+.\main.go:51:16: undefined: sql.Open
