@@ -1,0 +1,30 @@
+[33mcommit 0db824b158daa1d9036043df162286e1e19b3a27[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: Yunus Alav <alwwyunus@gmail.com>
+Date:   Sat Oct 31 15:54:42 2026 +0300
+
+    Gerekli satış operasyonları eklendi ve admin paneli güncellendi
+
+[33mcommit 361f252eb1e9426fe39f08e8c74ae7efd4ebf331[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Yunus Alav <alwwyunus@gmail.com>
+Date:   Thu Oct 29 19:12:13 2026 +0300
+
+    ikon eklendi
+
+[33mcommit 1a1cf83f3eff39ed9c7cf7eb0f6cb31f81d9dda3[m
+Merge: e2bae4c 333cfb6
+Author: Yunus Alav <alwwyunus@gmail.com>
+Date:   Thu Oct 29 12:46:58 2026 +0300
+
+    Hata onarıldı
+
+[33mcommit 333cfb668517aa0f91294982dcbe4414127ec82b[m
+Author: AlavYunus <alwwyunus@gmail.com>
+Date:   Thu Oct 29 12:33:37 2026 +0300
+
+    Initial commit
+
+[33mcommit e2bae4c87f23ebccd8b7a90228b825a07f63aef0[m
+Author: Yunus Alav <alwwyunus@gmail.com>
+Date:   Thu Oct 29 12:29:24 2026 +0300
+
+    AvatarProje klasörü ve içeriği GIT'e kaydedildi
