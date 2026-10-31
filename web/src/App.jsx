@@ -137,16 +137,30 @@ function App() {
             )}
 
             {/* ─── ÜST STRATEJİK YÖNETİM ALANI (Sadece Tam Yetkili Yönetici Görebilir) ─── */}
-            {user?.role === 'admin' && (
+        
+          {user?.role === 'admin' && (
+            <>
+              <li>
+                <Link to="/sale" className={`navbar-link ${location.pathname === '/sale' ? 'active' : ''}`} onClick={() => setIsMenuOpen(false)}>
+                  <ShoppingCart size={16} />
+                  <span>Satış Yönetimi</span>
+                </Link>
+              </li>
+              <li>
+                <Link to="/return" className={`navbar-link ${location.pathname === '/return' ? 'active' : ''}`} onClick={() => setIsMenuOpen(false)}>
+                  <RefreshCw size={16} />
+                  <span>Geri İade Yönetimi</span>
+                </Link>
+              </li>
               <li>
                 <Link to="/report" className={`navbar-link ${location.pathname.startsWith('/report') ? 'active' : ''}`} onClick={() => setIsMenuOpen(false)}>
                   <FileText size={16} />
                   <span>Yönetici Raporları</span>
                 </Link>
               </li>
-            )}
+            </>
+          )}  
           </ul>
-
           <div className="navbar-user-zone">
             <Link to="/account" className={`navbar-profile-card ${location.pathname === '/account' ? 'profile-active' : ''}`} onClick={() => setIsMenuOpen(false)}>
               <div className="profile-avatar">{user?.fullName ? user.fullName.charAt(0).toUpperCase() : 'U'}</div>
